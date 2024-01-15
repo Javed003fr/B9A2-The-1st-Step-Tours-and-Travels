@@ -4,9 +4,80 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Inter', sans-serif;
   font-family: 'Mulish', sans-serif;
 }
+
+header {
+  margin-top: 20px;
+}
+
+/* Navbar Styles */
+.nav-section {
+  max-width: 1050px;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+
+.nav-container {
+  /* border: 1px solid tomato; */
+  /* min-height: 20px; */
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-container h1 {
+  color: #131318;
+  /* font-family: Mulish; */
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.step, .travels {
+  color: #FF5400;
+}
+
+.nav-item-container {
+  /* border: 2px solid cyan; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item-container a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #424247;
+  font-weight: 400;
+}
+
+.nav-item-container .home {
+  color:#FF5400;
+  font-weight: 700;
+}
+
+
+
+
+/* .logo {
+  width: 30px;
+  height: auto;
+} */
+
+/* .container {
+  display: flex;
+} */
+
+/* .container h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 30px;
+  font-weight: 800;
+  border: 1px solid violet;
+} */
