@@ -43,7 +43,6 @@ h2 {
 
 .nav-container h1 {
   color: #131318;
-  /* font-family: Mulish; */
   font-size: 1.8rem;
   font-weight: 800;
 }
@@ -504,18 +503,31 @@ button:hover {
   width: 100%;
 }
 
-/* 
-.img-container {
-  border: 1px solid olive;
-  width: 48%;
-  /* margin: 0 auto; */
-  /* object-fit: cover; */
+.save-btn {
+  width: 324px;
+  height: 120px;
+  transform: translate(285px, -173px) rotate(-20deg);
+  border-radius: 16px;
+  background: #FF5400;
+}
+.travel {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.save-up {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
-/* .img-mountain { */
-  /* width: 100%; */
+/* Footer Style */
+.footer {
+  max-width: 1050px;
+  margin: 0 auto;
+  border: 2px solid blue;
 }
- */
 
 
 
