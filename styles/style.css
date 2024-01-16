@@ -17,6 +17,14 @@ header {
   margin-bottom: 50px;
 }
 
+h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
 /* Navbar Styles */
 .nav-section {
   max-width: 1050px;
@@ -245,18 +253,12 @@ header {
 }
 .text-container3, .text-container4 {
   border: 1px solid violet;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
-.text-container3, .text-container4 h2 {
-  color: #131318;
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 20px;
-}
+
 .text-container3, .text-container4 p {
   color: rgba(19, 19, 24, 0.70);
   font-size: 1rem;
@@ -340,13 +342,36 @@ header {
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
   width: 48%;
-  /* height: 280px; */
+  height: auto;
   padding: 35px;
 }
 
-.handpicked-hotel,
-.service, 
-.best-price h3 {
+.service {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 48%;
+  height: auto;
+  padding: 35px
+}
+
+.best-price {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  width: 48%;
+  height: auto;
+  padding: 35px;
+  justify-content: center;
+}
+
+.card-icon img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.handpicked-hotel, h3 {
   color: #131318;
   font-size: 1.5rem;
   font-weight: 800;
@@ -360,23 +385,58 @@ header {
   font-weight: 400;
 }
 
-.service {
-  border-radius: 16px;
-  border: 1px solid rgba(41, 206, 246, 0.20);
-  background: rgba(41, 206, 246, 0.05);
+/* Container6 (A Simple Perfect Place to get lost) */
+.container6 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  /* min-height: 400px; */
+  margin: 0 auto;
+}
+.text-container6 {
+  border: 1px solid blue;
   width: 48%;
-  /* height: 280px; */
-  padding: 35px
+}
+.text-container6 h2 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.text-container6 p {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.text-container6 li {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1rem;
+  font-weight: 400;
+  list-style-type: disc;
+  list-style-position:inside;
+  /* align-items:; */
+  margin-bottom: 5px;
+}
+.btn-primary {
+  margin-top: 20px;
 }
 
-.best-price {
-  border-radius: 16px;
-  border: 1px solid rgba(233, 68, 68, 0.20);
-  background: rgba(233, 68, 68, 0.05);
+.vdo-container {
+  border: 1px solid olive;
   width: 48%;
-  /* height: 280px; */
-  padding: 35px;
+  /* margin: 0 auto; */
+  position: relative;
 }
+
+.vdo--container video {
+  width: 48%;
+  height: auto;
+  position: absolute;
+}
+
 
 
 @media screen and (max-width:600px) {
@@ -403,7 +463,7 @@ header {
     width: 100%;
     height: auto;
   }
-  .container2 {
+  .container2, .container3, .card-container4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -413,6 +473,7 @@ header {
   }
   .text-container, .img-container {
     width: 100%;
+    overflow: auto;
   }
   .img-container {
     margin-top: 20px;
