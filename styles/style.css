@@ -81,8 +81,8 @@ h2 {
   margin: 0 auto;
   position: relative;
 }
-.banner1-img {
-  width: 100%;
+.banner1-img img {
+  width: 1050px;
   height: auto;
   object-fit: cover;
   position: relative;
@@ -94,19 +94,20 @@ h2 {
   font-size: 3.5rem;
   font-weight: 800;
   position: absolute;
-  top: 30%;
-  left: 35%;
+  top: 20%;
+  left: 25%;
   /* transform: translate(-50%, -250%); */
 }
 
 .banner1-img p {
+  max-width: 700px;
   color: #FFF;
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
   position: absolute;
-  top: 45%;
-  left: 15%;
+  top: 35%;
+  left: 18%;
   /* transform: translate(-50%, -220%); */
 }
 
@@ -128,7 +129,7 @@ h2 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.30);
   top: -168px;
-  left: 50px;
+  left: 10px;
   position: relative;
   /* transform: translate(-13%, -200%); */
 }
@@ -140,7 +141,7 @@ h2 {
   gap: 20px;
   position: relative;
   top: -150%;
-  left: 50%;
+  left: 46%;
   transform: translate(-50%, -455%);
 }
 
@@ -410,12 +411,6 @@ h2 {
   padding: 35px
 }
 
-.price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .best-price {
   border-radius: 16px;
   border: 1px solid rgba(233, 68, 68, 0.20);
@@ -424,6 +419,12 @@ h2 {
   height: auto;
   padding: 35px;
   justify-content: center;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-icon img {
@@ -651,16 +652,9 @@ hr {
     width: 100%;
   }
   .nav-item-container {
-    /* flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin-top: 10px; */
     display: none;
   }
   .nav-section {
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     width: 100%;
     padding: 10px;
   }
@@ -671,9 +665,9 @@ hr {
     align-items: center;
     gap: 20px;
     position: relative;
-    /* top: 50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -455%); */
+    transform: translate(-50%, -455%);
   }
   .container1 {
     width: 100%;
