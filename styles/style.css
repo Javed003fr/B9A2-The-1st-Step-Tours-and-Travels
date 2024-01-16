@@ -202,7 +202,7 @@ h2 {
   border: 2px solid red;
   display: flex;
   justify-content: space-between;
-  width: 1050px;
+  max-width: 1050px;
   /* min-height: 400px; */
   margin: 0 auto;
 }
@@ -390,8 +390,7 @@ h2 {
   border: 2px solid red;
   display: flex;
   justify-content: space-between;
-  width: 1050px;
-  /* min-height: 400px; */
+  max-width: 1050px;
   margin: 0 auto;
 }
 .text-container6 {
@@ -431,10 +430,75 @@ h2 {
   position: relative;
 }
 
-.vdo--container video {
-  width: 48%;
-  height: auto;
-  position: absolute;
+/* Section7 (Newsletter box) */
+.container7 {
+  border: 2px solid red;
+  display: flex;
+  /* justify-content: space-between; */
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.newsletter-box {
+  border: 2px solid red;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  width: 39%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.newsletter-text {
+  /* border: 1px solid blue; */
+  /* align-items: left; */
+}
+
+.newsletter-text h2 {
+  color: #131318;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.newsletter-text p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.input-item>input {
+  /* border: 1px solid blue; */
+  width: 350px;
+  height: 52px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  margin: 16px 0;
+  padding: 16px;
+}
+
+button {
+  width: 350px;
+  height: 52px;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 1.2rem;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-weight: 800;
+}
+
+button:hover {
+  
+}
+
+.newsletter-img img {
+  
 }
 
 
@@ -463,7 +527,7 @@ h2 {
     width: 100%;
     height: auto;
   }
-  .container2, .container3, .card-container4 {
+  .container2, .container3, .card-container4, .container6 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -471,12 +535,18 @@ h2 {
     height: auto;
     padding: 10px;
   }
-  .text-container, .img-container {
+  .text-container, .img-container, .text-container6, .vdo-container {
     width: 100%;
-    overflow: auto;
+    /* overflow: auto; */
   }
   .img-container {
     margin-top: 20px;
+  }
+  .handpicked-hotel, .service, .best-price{
+    width: 100%
+  }
+  .btn-primary {
+    text-align: center;
   }
 }
 
